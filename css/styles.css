@@ -1,0 +1,127 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+li {
+  list-style: none;
+}
+h2{
+color: var(--title-text-color)
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* Шапка сайту */ header {
+  background-color: var(--primary-white-color);
+}
+.logo {
+ color: var(--title-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.first-part{
+color: var(--accent-color);
+}
+.second-part{
+color: var(--primary-white-color);
+}
+.navigation .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.navigation .link.current {
+  color: var(--accent-color);
+}
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+/* Герой */
+.hero {
+background-color: #2f303a;
+text-align: center;
+letter-spacing: 0.06em
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.hero-button{
+background-color: #2196F3;
+color:var(--primary-white-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+}
+/* Особливості */
+.features .title{
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.features .text{
+color: var(--primary-text-color);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+/* Наша команда */
+.team-section{
+background-color:#F5F4FA;
+}
+.team-section .name{
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team-section .position{
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* Підвал */
+footer{
+background-color:#2F303A ;
+}
+.address {
+color: var(--primary-white-color);
+text-decoration: none;
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+.address .contact{
+    color: rgba(255, 255, 255, 0.6);
+}
